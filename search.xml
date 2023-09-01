@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title>重新学习计组day01</title>
-      <link href="/posts/44bb8d4e.html"/>
-      <url>/posts/44bb8d4e.html</url>
+      <title>重新学习计组day02</title>
+      <link href="/posts/ddb2dcf4.html"/>
+      <url>/posts/ddb2dcf4.html</url>
       
         <content type="html"><![CDATA[<p>#计算机运算过程<br>##·控制器基本介绍<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-01%20135632.png"><br>##·运算y&#x3D;a*b+c的例子<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/0.png"><br>*X为操作数寄存器<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/02%E5%9B%BE%E7%89%87.png">  </p><p>····当执行乘法操作时把ACC里存的值传入X，然后CU控制ALU进行乘法计算并将值传入ACC。····<br>····加法与上一步类似。····<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/02%E5%9B%BE%E7%89%871.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/02%E5%9B%BE%E7%89%872.png"><br>###回顾<br>冯诺依曼机的特点：<br>1.冯·诺依曼计算机主要由五大部件组成，分别是：运算器、控制器、存储器、输入设备和输出设备；</p><p>2.冯诺依曼体系结构的指令和数据均采用二进制码表示；</p><p>3.指令和数据以同等地位存放于存储器中，均可按地址寻访；</p><p>4.指令由操作码和地址码组成，操作码用来表示操作的性质，地址码用来表示操作数所在存储器中的位置；</p><p>5.指令在存储器中按顺序存放，通常指令是按顺序执行的，特定条件下，可以根据运算结果或者设定的条件改变执行顺序；</p><p>6.机器以运算器为中心，输入输出设备和存储器的数据传送通过运算器。</p><p>现在的计算机基本以存储器为中心，下图为以存储器为中心的计算机结构框图。</p>]]></content>
       
