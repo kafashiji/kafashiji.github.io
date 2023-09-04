@@ -8,6 +8,25 @@
       <link href="/posts/34d179c1.html"/>
       <url>/posts/34d179c1.html</url>
       
+        <content type="html"><![CDATA[<h1 id="BCD码"><a href="#BCD码" class="headerlink" title="BCD码"></a>BCD码</h1><p>8421码：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-04%20204023.png"><br>5+8&#x3D;13&#x3D;1101 加6后 0001 0011刚好为13<br>2421码（5及以后首位为1）<br>余3码（所有加3）  </p><h1 id="无符号整数的表示和运算"><a href="#无符号整数的表示和运算" class="headerlink" title="无符号整数的表示和运算"></a>无符号整数的表示和运算</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-04%20204759.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-04%20203909.png">  </p><h1 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h1><p>机器字长是指cpu一次能处理的数据位数字长越长，数的范围越大，精度越高。他直接影响了加法器ALU，数据总线以及存储字长的位数，所以不能单纯的从精度和范围来考虑。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新学习计组day04</title>
+      <link href="/posts/34d179c1.html"/>
+      <url>/posts/34d179c1.html</url>
+      
         <content type="html"><![CDATA[<h1 id="进位计数制"><a href="#进位计数制" class="headerlink" title="进位计数制"></a>进位计数制</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20191036.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20190850.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20190812.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20134734.png"></p>]]></content>
       
       
