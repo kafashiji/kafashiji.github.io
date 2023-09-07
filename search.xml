@@ -4,12 +4,31 @@
   
     
     <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>重新学习计组day07</title>
       <link href="/posts/add8287b.html"/>
       <url>/posts/add8287b.html</url>
       
         <content type="html"><![CDATA[<h1 id="原反补码特性对比"><a href="#原反补码特性对比" class="headerlink" title="原反补码特性对比"></a>原反补码特性对比</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-06%20210055.png"><br>-64+-64&#x3D;-128<br>若用原码表示则溢出，补码则不溢出  </p><h1 id="移码"><a href="#移码" class="headerlink" title="移码"></a>移码</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-06%20212242.png"></p><h1 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-06%20212211.png"></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
       
       
         <tags>
@@ -30,6 +49,12 @@
         <content type="html"><![CDATA[<h1 id="带符号的整数的运算"><a href="#带符号的整数的运算" class="headerlink" title="带符号的整数的运算"></a>带符号的整数的运算</h1><h2 id="原码"><a href="#原码" class="headerlink" title="原码"></a>原码</h2><p>原码是：<br>19 &#x3D; 0，0010011（8bit寄存器）<br>-19 &#x3D; 1，0010011<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-05%20204222.png"></p><h2 id="反码"><a href="#反码" class="headerlink" title="反码"></a>反码</h2><p>除符号位，其他按位取反。</p><h2 id="补码"><a href="#补码" class="headerlink" title="补码"></a>补码</h2><p>反码加1</p><h1 id="补码和原码相互转换"><a href="#补码和原码相互转换" class="headerlink" title="补码和原码相互转换"></a>补码和原码相互转换</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-05%20215410.png"></p><h1 id="补码的减法"><a href="#补码的减法" class="headerlink" title="补码的减法"></a>补码的减法</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-05%20223300.png"><br>（与无符号整数减法一样）</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-05%20220012.png"></p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>存储字长与机器字长的区别,机器字长一般等于内部寄存器的位数,而MDR位数与存储字长相等,因此我们可以理解为一般情况下,机器字长等于存储字长.要注意是一般情况下,在’二’班情况下,机器字长可以是存储字长的1,2,4等倍.</p>]]></content>
       
       
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -48,6 +73,12 @@
       
         <content type="html"><![CDATA[<h1 id="BCD码"><a href="#BCD码" class="headerlink" title="BCD码"></a>BCD码</h1><p>8421码：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-04%20204023.png"><br>5+8&#x3D;13&#x3D;1101 加6后 0001 0011刚好为13<br>2421码（5及以后首位为1）<br>余3码（所有加3）  </p><h1 id="无符号整数的表示和运算"><a href="#无符号整数的表示和运算" class="headerlink" title="无符号整数的表示和运算"></a>无符号整数的表示和运算</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-04%20204759.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-04%20203909.png">  </p><h1 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h1><p>机器字长是指cpu一次能处理的数据位数字长越长，数的范围越大，精度越高。他直接影响了加法器ALU，数据总线以及存储字长的位数，所以不能单纯的从精度和范围来考虑。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
       
       
         <tags>
@@ -68,6 +99,12 @@
         <content type="html"><![CDATA[<h1 id="进位计数制"><a href="#进位计数制" class="headerlink" title="进位计数制"></a>进位计数制</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20191036.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20190850.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20190812.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-03%20134734.png"></p>]]></content>
       
       
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -86,6 +123,12 @@
       
         <content type="html"><![CDATA[<h1 id="层次结构与性能指标"><a href="#层次结构与性能指标" class="headerlink" title="层次结构与性能指标"></a>层次结构与性能指标</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/day03%E5%9B%BE1.png"><br>（ 层次结构总结 ）</p><h3 id="性能指标"><a href="#性能指标" class="headerlink" title="性能指标"></a>性能指标</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/day03%E5%9B%BE2.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/n%E4%B8%AA2%E8%BF%9B%E5%88%B6%E4%BD%8D%E7%9A%84%E7%90%86%E8%A7%A3.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/day03%E6%95%B0%E6%8D%AE%E5%B8%B8%E7%94%A8%E5%8D%95%E4%BD%8D.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/cpu%E6%89%A7%E8%A1%8C%E6%97%B6%E9%97%B4%E7%9A%84%E8%AE%A1%E7%AE%97.png"><br>*数据通路带宽：数据总线一次所能并行传送的信息位数<br>*吞吐量：指系统在单位时间内处理请求的数量<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E6%80%9D%E8%80%83.png">  </p><h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/day03%E5%9B%BE3.png"></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
       
       
         <tags>
@@ -106,6 +149,12 @@
         <content type="html"><![CDATA[<h1 id="计算机运算过程"><a href="#计算机运算过程" class="headerlink" title="计算机运算过程"></a>计算机运算过程</h1><h2 id="·控制器基本介绍"><a href="#·控制器基本介绍" class="headerlink" title="·控制器基本介绍"></a>·控制器基本介绍</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-01%20135632.png">  </p><h2 id="·运算y-a-b-c的例子"><a href="#·运算y-a-b-c的例子" class="headerlink" title="·运算y&#x3D;a*b+c的例子"></a>·运算y&#x3D;a*b+c的例子</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/0.png"><br>*X为操作数寄存器<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/02%E5%9B%BE%E7%89%87.png">  </p><p>····当执行乘法操作时把ACC里存的值传入X，然后CU控制ALU进行乘法计算并将值传入ACC。····<br>····加法与上一步类似。····<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/02%E5%9B%BE%E7%89%871.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/02%E5%9B%BE%E7%89%872.png"></p><h3 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h3><p>冯诺依曼机的特点：<br>1.冯·诺依曼计算机主要由五大部件组成，分别是：运算器、控制器、存储器、输入设备和输出设备；</p><p>2.冯诺依曼体系结构的指令和数据均采用二进制码表示；</p><p>3.指令和数据以同等地位存放于存储器中，均可按地址寻访；</p><p>4.指令由操作码和地址码组成，操作码用来表示操作的性质，地址码用来表示操作数所在存储器中的位置；</p><p>5.指令在存储器中按顺序存放，通常指令是按顺序执行的，特定条件下，可以根据运算结果或者设定的条件改变执行顺序；</p><p>6.机器以运算器为中心，输入输出设备和存储器的数据传送通过运算器。</p><p>现在的计算机基本以存储器为中心，下图为以存储器为中心的计算机结构框图。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -124,6 +173,12 @@
       
         <content type="html"><![CDATA[<p>#计算机五大部件：<br>输入输出设备，主存，运算器（算术运算，逻辑运算），控制器<br>现代计算器与冯诺依曼机的区别：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-31%20155732.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-31%20155637.png"><br>主储存器：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/1.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-01%20133608.png"></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
       
       
         <tags>
