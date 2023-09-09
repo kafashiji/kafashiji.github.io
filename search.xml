@@ -4,13 +4,50 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>重新学习计组day09</title>
+      <link href="/posts/4a60057c.html"/>
+      <url>/posts/4a60057c.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="ALU-加法器-设计"><a href="#ALU-加法器-设计" class="headerlink" title="ALU(加法器)设计"></a>ALU(加法器)设计</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-09%20210422.png"><br>“4位ALU的AB各四线路输入了4bit信息”  </p><h2 id="与或非基本逻辑运算"><a href="#与或非基本逻辑运算" class="headerlink" title="与或非基本逻辑运算"></a>与或非基本逻辑运算</h2><p>与：只要真值中有0，则为0<br>或：只要真值中有1，则为1<br>非：真值取反<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-09%20212234.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-09%20212851.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新学习计组day08</title>
+      <link href="/posts/3d6735ea.html"/>
+      <url>/posts/3d6735ea.html</url>
       
         <content type="html"><![CDATA[<h1 id="回顾及理解"><a href="#回顾及理解" class="headerlink" title="回顾及理解"></a>回顾及理解</h1><p>假设为8位寄存器，原码为1.1111111，现在加上0.0000001得11.0000000（仍然用第一位表示符号位。）反码为10.1111111，补码为11.0000000。因为寄存器为8位，所以为1.0000000，按补码逆规则求得原码：<br>1.0000000-1&#x2F;128&#x3D;1.1111111（向高位借位）然后取反得1.0000000，因为曾向高位借位，所以并不是看起来的-0.0，而是-1.0。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -205,19 +242,6 @@
             <tag> 热点 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="title-剥壳开发中"><a href="#title-剥壳开发中" class="headerlink" title="title:剥壳开发中"></a>title:剥壳开发中</h2>]]></content>
-      
-      
       
     </entry>
     
