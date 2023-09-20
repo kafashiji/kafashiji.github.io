@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>重新学习计组day10</title>
+      <link href="/posts/2aa78c99.html"/>
+      <url>/posts/2aa78c99.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="定点运算"><a href="#定点运算" class="headerlink" title="定点运算"></a>定点运算</h1><h2 id="算术位移与逻辑位移"><a href="#算术位移与逻辑位移" class="headerlink" title="算术位移与逻辑位移"></a>算术位移与逻辑位移</h2><p> 逻辑移位是无符号数的移位<br> 算术移位是有符号数的移位<br> 寄存器内容为：01010011<br> 算术左移：0，0100110<br> 逻辑左移：10100110<br> 算术右移：0，00101001（根据符号位加数）<br> <img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230920124037.jpg"></p><h2 id="原码乘法"><a href="#原码乘法" class="headerlink" title="原码乘法"></a>原码乘法</h2><p>例子：<br>A × B<br>&#x3D;A × 0.1011<br>&#x3D;0.1A  + 0.00A   + 0.001A + 0.0001A<br>&#x3D;0.1(A + 0.0A    + 0.01A  + 0.001A)<br>&#x3D;0.1(A + 0.1(0A  + 0.1A   + 0.01A))<br>&#x3D;0.1(A + 0.1(0A  + 0.1(A  + 0.1A)))<br>&#x3D;0.1(A + 0.1(0A  + 0.1(A  + 0.1(A + 0))))<br>如下算法：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230920180531.jpg"></p><h3 id="booth乘法"><a href="#booth乘法" class="headerlink" title="booth乘法"></a>booth乘法</h3><p>设[x]补&#x3D;x0. x1 x2 x3 … xn<br>[y]补&#x3D;y0. y1 y2 y3 … yn<br>如下：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230920181330.jpg"><br>求解过程如下：<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230920183433.jpg"></p><h3 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h3><p>yi+1 - yi<br>&#x3D;0时，部分乘<br>&#x3D;1时加[x]补，再右移一位<br>&#x3D;-1时加[-x]补，再右移一位  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>page</title>
       <link href="/posts/140ab620.html"/>
       <url>/posts/140ab620.html</url>
@@ -312,7 +337,7 @@
       <link href="/picture/index.html"/>
       <url>/picture/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<figure><img src="" width=200/><img src="" width=200/><img src="" width=200/></figure>]]></content>
       
     </entry>
     
