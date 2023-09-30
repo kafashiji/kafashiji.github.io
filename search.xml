@@ -324,7 +324,7 @@
       <link href="/picture/index.html"/>
       <url>/picture/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/a29b340b-d02c-499c-abd6-c4dc01cffbb6_base_resized(1).jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">看点好康的(*^_^*)</div>  <p>不许瑟瑟！！！</p>  <a href='/picture/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230912201533.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">还没想好</div>  <p>无所谓啦</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/kln.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">再说再说</div>  <p>不想管拉</p>  <a href='/Gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/a29b340b-d02c-499c-abd6-c4dc01cffbb6_base_resized(1).jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">看点好康的(*^_^*)</div>  <p>不许瑟瑟！！！</p>  <a href='/picture/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230912201533.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">放些动漫截图吧</div>  <p>最近是弗莉莲哒</p>  <a href='/picture/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/kln.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">再说再说</div>  <p>不想管拉</p>  <a href='/Gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -336,6 +336,17 @@
       <url>/picture/wallpaper.html</url>
       
         <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery lazyload data" data-rowHeight="450" data-limit="10">    <span class="gallery-data">[{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/a29b340b-d02c-499c-abd6-c4dc01cffbb6_base_resized(1).jpg","alt":""},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/d7aa5b72-daa6-4c2c-abbe-134b40241c3a_base_resized(1).jpg","alt":""},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/Cache_-2039f3f15065fce7(1).png","alt":""},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/c3cce2fe-65e9-418d-b120-63899b77dd7e_base_resized(1).jpg","alt":""},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/bbbf09dd-ff91-4e5f-ae3f-8bf851da4ae0(1).jpg","alt":""},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/85261c03-c715-4bf0-bc7c-3dd2c8f37293_base_resized(1).jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/picture/marvel.html"/>
+      <url>/picture/marvel.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery lazyload data" data-rowHeight="450" data-limit="10">    <span class="gallery-data">[{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-01%20010454.png","alt":""},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-01%20011020.png","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
       
     </entry>
     
