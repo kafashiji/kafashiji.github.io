@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>重新学习计组day12</title>
+      <link href="/posts/c4a9edb5.html"/>
+      <url>/posts/c4a9edb5.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="存储器"><a href="#存储器" class="headerlink" title="存储器"></a>存储器</h1><h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-07%20230552.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-16%20155604.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-16%20155828.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-16%20155732.png"></p><h2 id="存储器性能指标"><a href="#存储器性能指标" class="headerlink" title="存储器性能指标"></a>存储器性能指标</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-16%20155927.png"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-16%20160004.png"></p><h1 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h1><p>位：最小单位<br>字节：8位<br>字：32位计算机的字就是32位<br>字长：运算器位数和寄存器宽度（MAR）<br>速度的K M G T是10的次幂<br>按字寻址类题型:<br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-16%20160714.png"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231016165656.jpg"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231016165724.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>重新学习计组day11</title>
       <link href="/posts/5da0bc0f.html"/>
       <url>/posts/5da0bc0f.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="关于补码，原码，移码表示范围的一点补充"><a href="#关于补码，原码，移码表示范围的一点补充" class="headerlink" title="关于补码，原码，移码表示范围的一点补充"></a>关于补码，原码，移码表示范围的一点补充</h1><p>在计算机中，二进制的表示可以看作时钟的表示<br>举例：<br>假设现在是2点，你想把时钟调成10点，那么有两种方法，一种是直接顺时针转动8个小时，另一种则是逆时针转动4个小时。<br>由于原码有两个0表示方法：100000….和000000…所以正负各少一个表示范围。<br>用数学方法表示：<br>因为现在想确定补码1000的数值，那么列算式证明<br>1000+0111&#x3D;1111<br>原码为1001&#x3D;-1 得补码1000代表-8。<br>所以补码的10000….代表负数的最小范围。<br>移码类似，因为移码是补码的符号位取反所得。所以移码的0000&#x3D;补码的1000，以此类推0000&#x3D;-8。所以移码的最小值为0000…..。</p>]]></content>
       
       
       <categories>
