@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>密码学</title>
+      <link href="/posts/abb54922.html"/>
+      <url>/posts/abb54922.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="数字签名技术"><a href="#数字签名技术" class="headerlink" title="数字签名技术"></a>数字签名技术</h1><h2 id="数字签名应具有的特性"><a href="#数字签名应具有的特性" class="headerlink" title="数字签名应具有的特性"></a>数字签名应具有的特性</h2><p>(1)签名是不可伪造的：除了合法的签名者之外，任何其他人伪造其签名是困 难的。<br>(2)签名是不可抵赖的：签名者事后不能否认自己的签名。<br>(3)签名是可信的：任何人都可以验证签名的有效性。<br>(4)签名是不可复制的：对一个消息的签名不能通过复制变为另一个消息的签名。如果对一个消息的签名是从别处复制得到的，则任何人都可以发现消息与签名之间的不一致性，从而可以拒绝签名的消息。<br>(5)签名的消息是不可篡改的：经签名的消息不能被篡改。一旦签名的消息被篡改，则任何人都可以发现消息与签名之间的不一致性。  </p><h2 id="ElGamal-算法"><a href="#ElGamal-算法" class="headerlink" title="ElGamal 算法"></a>ElGamal 算法</h2><p>选取大素数p， a ∈Zp, p、a 作为系统参数所有用户共享。<br>系统中每个用户U都随机挑选一个整数Xu，2≤ Xu ≤ p－2，并计算</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/密码学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>重新学习计组day14</title>
       <link href="/posts/2dca4880.html"/>
       <url>/posts/2dca4880.html</url>
@@ -474,7 +499,7 @@
       <link href="/picture/index.html"/>
       <url>/picture/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/a29b340b-d02c-499c-abd6-c4dc01cffbb6_base_resized(1).jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">看点好康的(*^_^*)</div>  <p>不许瑟瑟！！！</p>  <a href='/picture/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230912201533.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">放些动漫截图吧</div>  <p>最近是弗莉莲哒</p>  <a href='/picture/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/kln.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">再说再说</div>  <p>不想管拉</p>  <a href='/Gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/a29b340b-d02c-499c-abd6-c4dc01cffbb6_base_resized(1).jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">看点好康的(*^_^*)</div>  <p>不许瑟瑟！！！</p>  <a href='/picture/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230912201533.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">放些动漫截图吧</div>  <p>最近是弗莉莲哒</p>  <a href='/picture/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://kafashiji.oss-cn-beijing.aliyuncs.com/kln.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">再说再说</div>  <p>不想管拉</p>  <a href='/picture/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -507,7 +532,7 @@
       <link href="/picture/ohmygirl.html"/>
       <url>/picture/ohmygirl.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery lazyload data" data-rowHeight="450" data-limit="10">    <span class="gallery-data">[{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/2d18f0a7a2a0791cb25d0512faf2e3d43461568077499110.jpg@1048w_!web-dynamic.webp","alt":"2d18f0a7a2a0791cb25d0512faf2e3d43461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/4fab3007d70f55c5742448de47133dd13461568077499110.jpg@1048w_!web-dynamic.webp","alt":"4fab3007d70f55c5742448de47133dd13461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/91b4f7583ffea38131dc929219ad09f63461568077499110.jpg@1048w_!web-dynamic.webp","alt":"91b4f7583ffea38131dc929219ad09f63461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/929cac66c67abaf35a52dc923efb54853461568077499110.jpg@1048w_!web-dynamic.webp","alt":"929cac66c67abaf35a52dc923efb54853461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/2111e5225068d981f773ee14a91094ad3461568077499110.jpg@1048w_!web-dynamic.webp","alt":"2111e5225068d981f773ee14a91094ad3461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/678465cadb302ca6d4510cc0c6d32ce23461568077499110.jpg@1048w_!web-dynamic.webp","alt":"678465cadb302ca6d4510cc0c6d32ce23461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/c60b5ab61565094dbd8ad2145b4eb61f3461568077499110.jpg@1048w_!web-dynamic.webp","alt":"c60b5ab61565094dbd8ad2145b4eb61f3461568077499110.jpg@1048w_!web-dynamic"}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery lazyload data" data-rowHeight="250" data-limit="10">    <span class="gallery-data">[{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/2d18f0a7a2a0791cb25d0512faf2e3d43461568077499110.jpg@1048w_!web-dynamic.webp","alt":"2d18f0a7a2a0791cb25d0512faf2e3d43461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/4fab3007d70f55c5742448de47133dd13461568077499110.jpg@1048w_!web-dynamic.webp","alt":"4fab3007d70f55c5742448de47133dd13461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/91b4f7583ffea38131dc929219ad09f63461568077499110.jpg@1048w_!web-dynamic.webp","alt":"91b4f7583ffea38131dc929219ad09f63461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/929cac66c67abaf35a52dc923efb54853461568077499110.jpg@1048w_!web-dynamic.webp","alt":"929cac66c67abaf35a52dc923efb54853461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/25b91cec848e7cf195d5b342a6bc677e3461568077499110.jpg@1048w_!web-dynamic.webp","alt":"25b91cec848e7cf195d5b342a6bc677e3461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/2111e5225068d981f773ee14a91094ad3461568077499110.jpg@1048w_!web-dynamic.webp","alt":"2111e5225068d981f773ee14a91094ad3461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/678465cadb302ca6d4510cc0c6d32ce23461568077499110.jpg@1048w_!web-dynamic.webp","alt":"678465cadb302ca6d4510cc0c6d32ce23461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/c60b5ab61565094dbd8ad2145b4eb61f3461568077499110.jpg@1048w_!web-dynamic.webp","alt":"c60b5ab61565094dbd8ad2145b4eb61f3461568077499110.jpg@1048w_!web-dynamic"},{"url":"https://kafashiji.oss-cn-beijing.aliyuncs.com/fed2e1061af8f817385080c535bd76323461568077499110.jpg@1048w_!web-dynamic.webp","alt":"fed2e1061af8f817385080c535bd76323461568077499110.jpg@1048w_!web-dynamic"}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
       
     </entry>
     
