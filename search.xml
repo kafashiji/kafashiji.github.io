@@ -4,6 +4,107 @@
   
     
     <entry>
+      <title>重新学习计组day17【指令系统】</title>
+      <link href="/posts/f7ab44ce.html"/>
+      <url>/posts/f7ab44ce.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="指令系统"><a href="#指令系统" class="headerlink" title="指令系统"></a>指令系统</h1><h2 id="零地址"><a href="#零地址" class="headerlink" title="零地址"></a>零地址</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102203043.png" alt="20240102203043"></p><h2 id="一地址指令"><a href="#一地址指令" class="headerlink" title="一地址指令"></a>一地址指令</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102203402.png" alt="20240102203402"></p><pre><code>如乘法，往acc原有的的数进行乘法操作</code></pre><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102203609.png" alt="20240102203609">  </p><h2 id="二三地址指令"><a href="#二三地址指令" class="headerlink" title="二三地址指令"></a>二三地址指令</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102203850.png" alt="20240102203850"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102204009.png" alt="20240102204009"></p><h2 id="四地址指令"><a href="#四地址指令" class="headerlink" title="四地址指令"></a>四地址指令</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102204731.png" alt="20240102204731"></p><h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><h3 id="按指令长度分类"><a href="#按指令长度分类" class="headerlink" title="按指令长度分类"></a>按指令长度分类</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102204951.png" alt="20240102204951"></p><h3 id="按操作码长度分类"><a href="#按操作码长度分类" class="headerlink" title="按操作码长度分类"></a>按操作码长度分类</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102205308.png" alt="20240102205308"></p><h3 id="按操作类型分"><a href="#按操作类型分" class="headerlink" title="按操作类型分"></a>按操作类型分</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102205901.png" alt="20240102205901"></p><h2 id="扩展操作码（定长指令字结构＋可变长操作码）"><a href="#扩展操作码（定长指令字结构＋可变长操作码）" class="headerlink" title="扩展操作码（定长指令字结构＋可变长操作码）"></a>扩展操作码（定长指令字结构＋可变长操作码）</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102211015.png" alt="20240102211015"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102211321.png" alt="20240102211321"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102212034.png" alt="20240102212034"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102212154.png" alt="20240102212154"></p><h2 id="指令寻址"><a href="#指令寻址" class="headerlink" title="指令寻址"></a>指令寻址</h2><h3 id="按字编址"><a href="#按字编址" class="headerlink" title="按字编址"></a>按字编址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102215451.png" alt="20240102215451">  </p><h3 id="定长指令字按字节编址"><a href="#定长指令字按字节编址" class="headerlink" title="定长指令字按字节编址"></a>定长指令字按字节编址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102215750.png" alt="20240102215750"></p><h3 id="变长指令字按字节编址"><a href="#变长指令字按字节编址" class="headerlink" title="变长指令字按字节编址"></a>变长指令字按字节编址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102220126.png" alt="20240102220126"></p><h3 id="跳跃寻址"><a href="#跳跃寻址" class="headerlink" title="跳跃寻址"></a>跳跃寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102220810.png" alt="20240102220810"></p><h2 id="注"><a href="#注" class="headerlink" title="注"></a>注</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102220914.png" alt="20240102220914"></p><h2 id="数据寻址"><a href="#数据寻址" class="headerlink" title="数据寻址"></a>数据寻址</h2><h3 id="直接寻址"><a href="#直接寻址" class="headerlink" title="直接寻址"></a>直接寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103135703.png" alt="20240103135703"></p><h3 id="间接寻址"><a href="#间接寻址" class="headerlink" title="间接寻址"></a>间接寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103140416.png" alt="20240103140416"></p><pre><code>    执行效率降低</code></pre><h3 id="寄存器寻址"><a href="#寄存器寻址" class="headerlink" title="寄存器寻址"></a>寄存器寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103140800.png" alt="20240103140800"></p><pre><code>    个数有限，寻址能力有限 </code></pre><h3 id="寄存器间接寻址"><a href="#寄存器间接寻址" class="headerlink" title="寄存器间接寻址"></a>寄存器间接寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103141015.png" alt="20240103141015"></p><h3 id="隐含寻址"><a href="#隐含寻址" class="headerlink" title="隐含寻址"></a>隐含寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103141149.png" alt="20240103141149"></p><h3 id="立即寻址"><a href="#立即寻址" class="headerlink" title="立即寻址"></a>立即寻址</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103141508.png" alt="20240103141508"></p><h3 id="偏移寻址"><a href="#偏移寻址" class="headerlink" title="偏移寻址"></a>偏移寻址</h3><h4 id="基址寻址"><a href="#基址寻址" class="headerlink" title="基址寻址"></a>基址寻址</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103143251.png" alt="20240103143251"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103143331.png" alt="20240103143331"></p><h4 id="变址寻址"><a href="#变址寻址" class="headerlink" title="变址寻址"></a>变址寻址</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103144850.png" alt="20240103144850"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240103144948.png" alt="20240103144948"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新学习计组day16*虚拟存储系统</title>
+      <link href="/posts/cace7f16.html"/>
+      <url>/posts/cace7f16.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102154000.png" alt="20240102154000"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新学习计组day15*cache</title>
+      <link href="/posts/69b1cc3c.html"/>
+      <url>/posts/69b1cc3c.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102141304.png" alt="20240102141304"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102141700.png" alt="20240102141700"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102141948.png" alt="20240102141948"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102142508.png" alt="20240102142508"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102143535.png" alt="20240102143535"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102144356.png" alt="20240102144356"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102144901.png" alt="20240102144901"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102144948.png" alt="20240102144948"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102145308.png" alt="20240102145308"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102145440.png" alt="20240102145440"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102150220.png" alt="20240102150220"></p><pre><code>使用的比特数少不会超过cache块数</code></pre><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102150605.png" alt="20240102150605"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102150823.png" alt="20240102150823"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102151303.png" alt="20240102151303"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102151749.png" alt="20240102151749"></p><pre><code>    不用写缓冲，访问次数变多，访存速度变慢（相比写回法）</code></pre><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102152436.png" alt="20240102152436"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102152825.png" alt="20240102152825"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240102153120.png" alt="20240102153120"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20231112145628.png" alt="20231112145628"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20231112144613.png" alt="20231112144613"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>密码学</title>
       <link href="/posts/abb54922.html"/>
       <url>/posts/abb54922.html</url>
