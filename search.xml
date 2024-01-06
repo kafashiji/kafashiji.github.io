@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>重新学习计组day20【I/O】</title>
+      <link href="/posts/39a46d5d.html"/>
+      <url>/posts/39a46d5d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="程序查询方式-程序中断方式"><a href="#程序查询方式-程序中断方式" class="headerlink" title="程序查询方式&amp;&amp;程序中断方式"></a>程序查询方式&amp;&amp;程序中断方式</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107011243.png" alt="20240107011243"></p><h2 id="DMA"><a href="#DMA" class="headerlink" title="DMA"></a>DMA</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107012003.png" alt="20240107012003"></p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107014234.png" alt="20240107014234"></p><h3 id="3种传送方式"><a href="#3种传送方式" class="headerlink" title="3种传送方式"></a>3种传送方式</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107014545.png" alt="20240107014545"></p><h2 id="通道控制方式"><a href="#通道控制方式" class="headerlink" title="通道控制方式"></a>通道控制方式</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107012622.png" alt="20240107012622"></p><h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107012821.png" alt="20240107012821"></p><h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107013045.png" alt="20240107013045"></p><h2 id="DMA方式与中断方式优缺点"><a href="#DMA方式与中断方式优缺点" class="headerlink" title="DMA方式与中断方式优缺点"></a>DMA方式与中断方式优缺点</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107014840.png" alt="20240107014840"></p><h2 id="踏步现象"><a href="#踏步现象" class="headerlink" title="踏步现象"></a>踏步现象</h2><pre><code>    程序查询时，cpu全部时间等待外设准备完成，效率低。因为程序查询方式需要不断查询设备是否做好准备，知道数据块传输结束后    才能继续原现行程序</code></pre><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107015038.png" alt="20240107015038"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新学习计组day19【总线】</title>
+      <link href="/posts/9ebaf06b.html"/>
+      <url>/posts/9ebaf06b.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106230538.png" alt="20240106230538"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106231010.png" alt="20240106231010"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106231106.png" alt="20240106231106"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106231414.png" alt="20240106231414"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106231828.png" alt="20240106231828"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106232144.png" alt="20240106232144"></p><h2 id="总线的性能指标"><a href="#总线的性能指标" class="headerlink" title="总线的性能指标"></a>总线的性能指标</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106232812.png" alt="20240106232812"></p><pre><code>    2.一个总线时钟周期可能在上升时输出信号下降时输入信号</code></pre><h3 id="总线带宽"><a href="#总线带宽" class="headerlink" title="总线带宽"></a>总线带宽</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106233359.png" alt="20240106233359"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106234544.png" alt="20240106234544"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106234702.png" alt="20240106234702"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106234847.png" alt="20240106234847"></p><pre><code>    1bit一根信号线</code></pre><h3 id="总线标准"><a href="#总线标准" class="headerlink" title="总线标准"></a>总线标准</h3><h4 id="ISA"><a href="#ISA" class="headerlink" title="ISA"></a>ISA</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240107005225.png" alt="20240107005225"><br>####</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>重新学习计组day18【CPU的结构和功能】</title>
       <link href="/posts/be43128c.html"/>
       <url>/posts/be43128c.html</url>
