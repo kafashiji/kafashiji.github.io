@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>重新学习计组day18【CPU的结构和功能】</title>
+      <link href="/posts/be43128c.html"/>
+      <url>/posts/be43128c.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h1><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105150147.png" alt="20240105150147"></p><h2 id="cpu的功能和基本结构"><a href="#cpu的功能和基本结构" class="headerlink" title="cpu的功能和基本结构"></a>cpu的功能和基本结构</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105145959.png" alt="20240105145959"></p><h2 id="指令周期"><a href="#指令周期" class="headerlink" title="指令周期"></a>指令周期</h2><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105151810.png" alt="20240105151810"></p><pre><code>主频：3.0 GHZ  每秒3.0G个节拍（时钟周期）微操作： 4个微操作代表4个时钟周期机器周期： 又称cpu周期，一个机器周期由多个时钟周期组成。</code></pre><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105152740.png" alt="20240105152740"><br><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105153431.png" alt="20240105153431"></p><h3 id="取址周期"><a href="#取址周期" class="headerlink" title="取址周期"></a>取址周期</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105155449.png" alt="20240105155449"></p><h3 id="间址周期"><a href="#间址周期" class="headerlink" title="间址周期"></a>间址周期</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105155909.png" alt="20240105155909"></p><h3 id="执行周期"><a href="#执行周期" class="headerlink" title="执行周期"></a>执行周期</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240105160027.png" alt="20240105160027"> </p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106195139.png" alt="20240106195139"></p><h2 id="指令流水"><a href="#指令流水" class="headerlink" title="指令流水"></a>指令流水</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106200304.png" alt="20240106200304"></p><h4 id="顺序"><a href="#顺序" class="headerlink" title="顺序"></a>顺序</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106200406.png" alt="20240106200406"></p><h4 id="重叠"><a href="#重叠" class="headerlink" title="重叠"></a>重叠</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106200823.png" alt="20240106200823"></p><h3 id="流水线的表示方法"><a href="#流水线的表示方法" class="headerlink" title="流水线的表示方法"></a>流水线的表示方法</h3><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106201228.png" alt="20240106201228"></p><h3 id="流水线的性能指标"><a href="#流水线的性能指标" class="headerlink" title="流水线的性能指标"></a>流水线的性能指标</h3><h4 id="吞吐率"><a href="#吞吐率" class="headerlink" title="吞吐率"></a>吞吐率</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106202910.png" alt="20240106202910"></p><pre><code>    装入时间：各个硬件部件陆续投入工作的时间    排空时间：与上述相反</code></pre><h4 id="加速比"><a href="#加速比" class="headerlink" title="加速比"></a>加速比</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106204325.png" alt="20240106204325"></p><h4 id="效率"><a href="#效率" class="headerlink" title="效率"></a>效率</h4><p><img src="https://kafashiji.oss-cn-beijing.aliyuncs.com/20240106204739.png" alt="20240106204739"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习/计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>重新学习计组day17【指令系统】</title>
       <link href="/posts/f7ab44ce.html"/>
       <url>/posts/f7ab44ce.html</url>
